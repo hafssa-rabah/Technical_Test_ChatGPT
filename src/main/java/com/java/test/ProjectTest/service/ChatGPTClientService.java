@@ -21,7 +21,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ChatGPTClientService implements ChatGPTClientRepository {
 
-    private final String API_KEY = "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";
+    private final String API_KEY = "your apiKey";
     private final String API_URL = "https://api.openai.com/v1/completions";
     private final String FilePath = "output.csv";
     private final CloseableHttpClient httpClient = HttpClients.createDefault();
