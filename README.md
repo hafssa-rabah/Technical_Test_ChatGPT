@@ -5,12 +5,13 @@ To test the application, follow these steps:
 
 1. Clone the repository onto your local machine using an IDE such as IntelliJ.
 
+2.In service/ChatGPTClientService Make your API KEY ( You should not reveal the API key in a publicly accessible repository on GitHub. ) 
+
 2.Run the code.
 
 3.(Use Postman to send a POST request to the endpoint "http://localhost:8080/chatgpt/getanswerandwrite" with the following parameters (for example):
 
 json
-Copy code
 {
    "question": "What is maven?"
 }
